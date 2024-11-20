@@ -10,3 +10,7 @@ license = "MIT"
 [[example]]
 name = "ls"
 path = "examples/ls.rs"
+
+[[example]]
+name = "echo-sleep"
+path = "examples/echo-sleep.rs"
