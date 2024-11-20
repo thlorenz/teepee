@@ -1,0 +1,12 @@
+[package]
+name = "teepee"
+version = "0.0.1"
+edition = "2021"
+description = "Wrap your command in a teepee and capture its output while also piping it to the parent process `stdout` and `stderr`"
+repository = "https://github.com/thlorenz/teepee"
+readme = "README.md"
+license = "MIT"
+
+[[example]]
+name = "ls"
+path = "examples/ls.rs"
